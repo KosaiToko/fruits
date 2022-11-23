@@ -14,7 +14,7 @@ let nav = () => {
             case "restart":
                 go('game', 'd-block');
                 $('.elements').remove();
-                $('#game').append(`<div class="elements"></div>`);
+                $("#game").append(`<div class="elements"></div>`);
                 break;
         }
     }
@@ -60,4 +60,3 @@ let checkName = () => {
         $(`#startGame`).attr('disabled', true);
     }
 }
-
